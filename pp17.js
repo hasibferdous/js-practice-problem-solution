@@ -1,18 +1,15 @@
-
 /* Problem-01
 You are given an array:
  var fruits = ['Apple', 'Banana', 'Orange'];
 a) Find the index of ‘Banana’ and replace ‘Banana’ with ‘Mango’.
 b) Remove ‘Orange’ and add ‘Watermelon’.
 */
-
 //1.a
 var fruits =['Apple','Banana','Orange'];
 var positionIndexBanana = fruits.indexOf('Banana');
 console.log(positionIndexBanana);
 fruits.splice(positionIndexBanana, 1, 'Mangoo');
 console.log(fruits);
-
 //1.b
 fruits.pop('Orange');
 fruits.push('Watermelon');
@@ -71,17 +68,14 @@ largest number using if-else.
 2. You are given a triangle with the sides 9, 8, 9. Write a program to check whether a
 triangle is Isosceles or not using if-else.
 Isosceles => two sides are equal
-
  */
 //p01
 var num1 = 13;
 var num2 = 79;
 var num3 = 45;
-
 if (num1 > num2 && num1 > num3 ){ console.log('13 is the Largest Number');}
 else if (num2 > num1 && num2 > num3 ){ console.log('79 is the Largest Number');}
 else if (num3 > num2 && num3 > num1 ){ console.log('45 is the Largest Number');}
-
 //p02
 var t1 = 9;
 var t2 = 8;
