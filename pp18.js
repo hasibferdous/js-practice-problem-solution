@@ -64,3 +64,14 @@ for (var i =0; i< numbers.length; i++){
     }
     console.log(number);
 }
+
+//continue in loop for array
+console.log('Number of array elements');
+var numbers = [45, 78, 84, 65, 93, 51, 21];
+for (var i =0; i< numbers.length; i++){
+    var number = numbers[i];
+    if(number > 80){
+        continue;
+    }
+    console.log(number);
+}
