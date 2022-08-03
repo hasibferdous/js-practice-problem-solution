@@ -35,3 +35,11 @@ for ( var i= 1; i <=20; i+= 2){
     
     console.log(i);
 }
+
+//for array
+console.log('Number of array elements');
+var numbers = [45, 78, 84, 65, 43, 51, 21];
+for (var i =0; i< numbers.length; i++){
+    var number = numbers[i];
+    console.log(number);
+}
