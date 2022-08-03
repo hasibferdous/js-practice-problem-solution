@@ -75,3 +75,10 @@ for (var i =0; i< numbers.length; i++){
     }
     console.log(number);
 }
+//while loop in  a reverse way
+var number = 10;
+while(number => 1) {
+    
+    console.log(number);
+    number--;
+}
