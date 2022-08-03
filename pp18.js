@@ -43,3 +43,24 @@ for (var i =0; i< numbers.length; i++){
     var number = numbers[i];
     console.log(number);
 }
+
+//break in loop
+
+for (var i = 1; i <= 20; i++) {
+    console.log(i)
+        if(i > 5) {
+            break;
+        }
+    }
+
+
+//break in loop for array
+console.log('Number of array elements');
+var numbers = [45, 78, 84, 65, 93, 51, 21];
+for (var i =0; i< numbers.length; i++){
+    var number = numbers[i];
+    if(number > 90){
+        break;
+    }
+    console.log(number);
+}
