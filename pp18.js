@@ -77,8 +77,15 @@ for (var i =0; i< numbers.length; i++){
 }
 //while loop in  a reverse way
 var number = 10;
-while(number => 1) {
+while(number >= 1) {
     
     console.log(number);
     number--;
+}
+
+//for loop in  a reverse way
+console.log('Number');
+for ( var i= 10; i >= 1; i-= 1){
+    
+    console.log(i);
 }
