@@ -8,10 +8,12 @@ b) Remove ‘Orange’ and add ‘Watermelon’.
 var fruits =['Apple','Banana','Orange'];
 var positionIndexBanana = fruits.indexOf('Banana');
 console.log(positionIndexBanana);
-fruits.splice(positionIndexBanana, 1, 'Mangoo');
+fruits[positionIndexBanana] = 'Mango'
+//fruits.splice(positionIndexBanana, 1, 'Mangoo');
 console.log(fruits);
 //1.b
 fruits.pop('Orange');
+console.log(fruits);
 fruits.push('Watermelon');
 console.log(fruits);
 
