@@ -79,39 +79,54 @@
  /**
   * 
   */
+  var fruits =['Apple','Banana','Orange'];
+  var positionIndexBanana = fruits.indexOf('Banana');
+  console.log(positionIndexBanana);
+  fruits[positionIndexBanana] = 'Mango'
+  //fruits.splice(positionIndexBanana, 1, 'Mangoo');
+  console.log(fruits);
 
 
 //7. Get the index of an element by the value
- /**
-  * 
-  */
+
+  var fruits =['Apple','Banana','Orange'];
+  var positionIndexBanana = fruits.indexOf('Banana');
+  console.log(positionIndexBanana);
+  
 
 
 //8. What does it mean when get undefined while getting the value of an element
  /**
+  * Array index মোট উপাদান এর চেয়ে বেশি মান দিলে undefined দেখাবে।
   * 
   */
+  var number = [10, 20, 50];
+  console.log(number[5]);
+  //If Array value is not there, then indexOf will be -1
+  var number = [10, 20, 50];
+  console.log(number.indexOf(30));
 
 
 //9. How can you add an element to an array at the last positon
- /**
-  * 
-  */
+  var fruits =['Apple','Banana','Orange'];
+  fruits.push('Watermelon');
+  console.log(fruits);
  
 
 //10. How can you remove the last element from array
- /**
-  * 
-  */
+  var fruits =['Apple','Banana','Orange'];
+  fruits.pop('Orange');
+  console.log(fruits);
 
 
 //11. Add an element at the first position of an array
- /**
-  * 
-  */
+  var fruits =['Apple','Banana','Orange'];
+  fruits.unshift('Watermelon');
+  console.log(fruits);
 
 
 //12. Remove the first element of an array
- /**
-  * 
-  */  
+  var fruits =['Apple','Banana','Orange'];
+  fruits.shift();
+  console.log(fruits);
+   
